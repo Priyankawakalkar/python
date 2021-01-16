@@ -43,3 +43,51 @@ print("Remove element form last position")
 l3 = [11,'priyanka',54,'a',20]
 l3.remove(l3[-1])
 print(l3)
+
+# Write a Python program to create an list without append() display the list items. Access individual element through indexes.(get input from user)
+list = []
+no = int(input("Enter length of a list "))
+print("Enter elements of list ")
+for i in range(no):
+ l1 = int(input())
+ list.insert(i,l1)
+print("Entered list =",list)
+print("display list items ")
+for i in list:
+ print(i)
+print("Access individual element of list through indexes ")
+for i in range(len(list)):
+ print(list[i])
+
+# Write a program to get the number of occurrences of a specified element in an list.
+def count(list, x):
+ c= 0
+ for i in list:
+ if (i == x):
+ c = c + 1
+ return c
+list = []
+num = int(input("Enter length of a list "))
+print("Enter elements of list")
+for i in range(num):
+ l1 = int(input())
+ list.insert(i,l1)
+print("entered list =",list)
+x = int(input("Enter specific element which is present in the list:"))
+print("specified element:",x)
+print("Occurrence of specified element in a list ")
+print("{} occurred {} times in a list".format(x, count(list, x)))
+ 
+# Write a program to remove the first occurrence of a specified element from an list.
+list = []
+num = int(input("Enter length of a list: "))
+print("Enter elements of list ")
+for i in range(num):
+ l1 = int(input())
+ list.insert(i,l1)
+print("entered list =",list)
+x = int(input("Enter specific element which is present in the list "))
+print("specified element:",x)
+print("Remove the first occurrence of a specified element from list ")
+list.remove(x)
+print("New list = ",list)

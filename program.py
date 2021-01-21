@@ -44,7 +44,7 @@ l3 = [11,'priyanka',54,'a',20]
 l3.remove(l3[-1])
 print(l3)
 
-# Write a Python program to create an list without append() display the list items. Access individual element through indexes.(get input from user)
+# 4)Write a Python program to create an list without append() display the list items. Access individual element through indexes.(get input from user)
 list = []
 no = int(input("Enter length of a list "))
 print("Enter elements of list ")
@@ -59,7 +59,7 @@ print("Access individual element of list through indexes ")
 for i in range(len(list)):
  print(list[i])
 
-# Write a program to get the number of occurrences of a specified element in an list.
+# 5)Write a program to get the number of occurrences of a specified element in an list.
 def count(list, x):
  c= 0
  for i in list:
@@ -78,7 +78,7 @@ print("specified element:",x)
 print("Occurrence of specified element in a list ")
 print("{} occurred {} times in a list".format(x, count(list, x)))
  
-# Write a program to remove the first occurrence of a specified element from an list.
+# 6)Write a program to remove the first occurrence of a specified element from an list.
 list = []
 num = int(input("Enter length of a list: "))
 print("Enter elements of list ")
@@ -91,3 +91,76 @@ print("specified element:",x)
 print("Remove the first occurrence of a specified element from list ")
 list.remove(x)
 print("New list = ",list)
+
+# 7)Write a program to count the number of strings where the string length is 2 or more and the first
+and last character are same from a given list of strings.
+Program :--
+list = []
+num = int(input("Enter length of a list "))
+print("Enter elements of list ")
+count = 0
+for i in range(num):
+ l1 = (input())
+ list += [l1]
+ if len(l1) > 1 and l1[0] == l1[-1]:
+ count = count + 1
+print("list =",list)
+print("number of strings having same first and last character = ",count)
+Output:--
+Enter length of a list 5
+Enter elements of list
+123
+121
+zpz
+anu
+525
+list = ['123', '121', 'zpz', 'anu', '525']
+number of strings having same first and last character = 3 
+
+# 8)Write a program to get a list, sorted in increasing order by the last element in each tuple from a
+given list of non-empty tuples.
+Program:--
+def last(n):
+ return n[-1]
+def sorted_list(tuples):
+ return sorted(tuples, key=last)
+list = []
+l1 = ((input("Enter list of tuples \n")))
+while (l1 != ''):
+ list.append(tuple(map(int, l1.split())))
+ l1 = input()
+print("list =",list)
+print("The Sorted list is =",sorted_list(list))
+Output:--
+Enter list of tuples
+1 5
+2 3
+9 8
+6 5
+7 0
+list = [(1, 5), (2, 3), (9, 8), (6, 5), (7, 0)]
+The Sorted list is = [(7, 0), (2, 3), (1, 5), (6, 5), (9, 8)] 
+
+# 9)Write a program to remove duplicates elements from a list.
+Program:--
+list = []
+no = int(input("Enter the length of a list "))
+print("Enter elements of list ")
+for i in range(no):
+ list.append(int(input()))
+print("list = ", list)
+list1= []
+for element in list:
+ if element not in list1:
+ list1.append(element)
+print("list without duplicates =",list1)
+Output:--
+Enter the length of a list 5
+Enter elements of list
+23
+56
+89
+23
+56
+list = [23, 56, 89, 23, 56]
+list without duplicates = [23, 56, 89] 

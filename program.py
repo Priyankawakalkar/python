@@ -92,9 +92,7 @@ print("Remove the first occurrence of a specified element from list ")
 list.remove(x)
 print("New list = ",list)
 
-# 7)Write a program to count the number of strings where the string length is 2 or more and the first
-and last character are same from a given list of strings.
-Program :--
+# 7)Write a program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings.
 list = []
 num = int(input("Enter length of a list "))
 print("Enter elements of list ")
@@ -107,9 +105,7 @@ for i in range(num):
 print("list =",list)
 print("number of strings having same first and last character = ",count)
 
-# 8)Write a program to get a list, sorted in increasing order by the last element in each tuple from a
-given list of non-empty tuples.
-Program:--
+# 8)Write a program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples.
 def last(n):
  return n[-1]
 def sorted_list(tuples):
@@ -123,7 +119,6 @@ print("list =",list)
 print("The Sorted list is =",sorted_list(list)) 
 
 # 9)Write a program to remove duplicates elements from a list.
-Program:--
 list = []
 no = int(input("Enter the length of a list "))
 print("Enter elements of list ")
@@ -137,7 +132,6 @@ for element in list:
 print("list without duplicates =",list1)
 
 # 10)Write a program to check a list is empty or not.
-Program:--
 list = []
 no = int(input("Enter length of a list "))
 print("Enter elements of list ")
@@ -151,7 +145,6 @@ else:
  print("given list is not empty")
 
 # 11)Write a program to find the list of words that are longer than n from a given list of words.
-Program:--
 def word(n, str):
  wlen = []
  text = str.split(" ")
@@ -160,11 +153,8 @@ def word(n, str):
  wlen.append(x)
  return wlen 
 print(word(3, "Hello this is python programming"))
-Output:--
-['Hello', 'this', 'python', 'programming']
-# 12) Write a program to print the numbers of a specified list after removing even numbers
-from it.
-Program:--
+
+# 12) Write a program to print the numbers of a specified list after removing even numbers from it.
 list = []
 no = int(input("Enter length of a list "))
 print("Enter elements of list ")

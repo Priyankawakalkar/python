@@ -193,7 +193,6 @@ for p in per(d):
  print(p)
 
 # 14)Write a program to get the difference between the two lists.
-Program:--
 list1 = []
 no1 = int(input("Enter length of a list1 "))
 print("Enter elements of list1 ")

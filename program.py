@@ -212,7 +212,7 @@ diff_l2_l1 = list(set(list2) - set(list1))
 total_diff = diff_l1_l2 + diff_l2_l1
 print("Diff between L1 and L2 is =",total_diff) 
 
-3.Write a program to convert a list of characters into a string.
+# 15) Write a program to convert a list of characters into a string.
 Program:--
 list = []
 no = int(input("Enter length of a list "))

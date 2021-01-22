@@ -222,16 +222,3 @@ for i in range(no):
 print("List of character is =",list)
 nlist = ''.join(list)
 print("String is =",nlist)
-Output:--
-Enter length of a list 8 
-Enter elements of list
-p
-r
-i
-y
-a
-n
-k
-a
-List of character is = ['p', 'r', 'i', 'y', 'a', 'n', 'k', 'a']
-String is = priyanka 

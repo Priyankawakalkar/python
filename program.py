@@ -191,20 +191,6 @@ d = list(list1)
 print("All permutations of a list = ")
 for p in per(d):
  print(p)
-Output:--
-Enter length of a list =3
-Enter elements of list =
-1
-2
-3 
-list= [1, 2, 3]
-All permutations of a list =
-[1, 2, 3]
-[1, 3, 2]
-[2, 1, 3]
-[2, 3, 1]
-[3, 1, 2]
-[3, 2, 1]
 
 2.Write a program to get the difference between the two lists.
 Program:--

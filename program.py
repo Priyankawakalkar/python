@@ -206,3 +206,43 @@ All permutations of a list =
 [2, 3, 1]
 [3, 1, 2]
 [3, 2, 1]
+
+2.Write a program to get the difference between the two lists.
+Program:--
+list1 = []
+no1 = int(input("Enter length of a list1 "))
+print("Enter elements of list1 ")
+for i in range(no1):
+ l1 = int(input())
+ list1.insert(i,l1)
+print("List1 is =",list1)
+list2 = []
+no2 = int(input("Enter length of a list2 "))
+print("Enter elements of list2 ")
+for i in range(no2):
+ l2 = int(input())
+ list2.insert(i,l2)
+print("List2 is =",list2)
+diff_l1_l2 = list(set(list1) - set(list2))
+diff_l2_l1 = list(set(list2) - set(list1))
+total_diff = diff_l1_l2 + diff_l2_l1
+print("Diff between L1 and L2 is =",total_diff)
+Output:--
+Enter length of a list1 5 
+Enter elements of list1
+1
+3
+5
+7
+9
+List1 is = [1, 3, 5, 7, 9]
+Enter length of a list2 6
+Enter elements of list2
+1
+2
+4
+6
+7
+8
+List2 is = [1, 2, 4, 6, 7, 8]
+Diff between L1 and L2 is = [9, 3, 5, 8, 2, 4, 6] 

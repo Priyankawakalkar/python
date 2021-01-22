@@ -166,3 +166,43 @@ for i in list:
  list.remove(i)
 print("list after removing even numbers ")
 print(list)
+
+1.Write a program to generate all permutations of a list
+Program:--
+def per(list):
+ if len(list) == 0:
+ return []
+ elif len(list) == 1:
+ return [list]
+ else:
+ l =[]
+ for i in range(len(list)):
+ a = list[i]
+ ab = list[:i] + list[i + 1:]
+ for x in per(ab):
+ l.append([a] + x)
+ return l
+list1 = []
+num = int(input("Enter length of a list ="))
+print("Enter elements of list = ")
+for i in range(num):
+ list1.append(int(input()))
+print("list=",list1)
+d = list(list1)
+print("All permutations of a list = ")
+for p in per(d):
+ print(p)
+Output:--
+Enter length of a list =3
+Enter elements of list =
+1
+2
+3 
+list= [1, 2, 3]
+All permutations of a list =
+[1, 2, 3]
+[1, 3, 2]
+[2, 1, 3]
+[2, 3, 1]
+[3, 1, 2]
+[3, 2, 1]

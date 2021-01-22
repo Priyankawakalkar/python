@@ -246,3 +246,29 @@ Enter elements of list2
 8
 List2 is = [1, 2, 4, 6, 7, 8]
 Diff between L1 and L2 is = [9, 3, 5, 8, 2, 4, 6] 
+
+
+3.Write a program to convert a list of characters into a string.
+Program:--
+list = []
+no = int(input("Enter length of a list "))
+print("Enter elements of list ")
+for i in range(no):
+ l1 = str(input())
+ list.insert(i,l1)
+print("List of character is =",list)
+nlist = ''.join(list)
+print("String is =",nlist)
+Output:--
+Enter length of a list 8 
+Enter elements of list
+p
+r
+i
+y
+a
+n
+k
+a
+List of character is = ['p', 'r', 'i', 'y', 'a', 'n', 'k', 'a']
+String is = priyanka 

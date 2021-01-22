@@ -167,7 +167,7 @@ for i in list:
 print("list after removing even numbers ")
 print(list)
 
-1.Write a program to generate all permutations of a list
+# 13) Write a program to generate all permutations of a list
 Program:--
 def per(list):
  if len(list) == 0:

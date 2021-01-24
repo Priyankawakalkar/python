@@ -69,14 +69,6 @@ key = input("key\n")
 value = int(input("value\n"))
 dict.update({key:value})
 print("updated dictionary =",dict)
-Output:--
-Enter dictionary {'p':1,'q':2}
-dictionary is = {'p': 1, 'q': 2}
-key
-1
-value
-2
-updated dictionary = {'p': 1, 'q': 2, '1': 2} 
 
 3.Write a Program to add a key to a dictionary.
 Program:--

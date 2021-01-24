@@ -34,19 +34,3 @@ if (all(x in list1 for x in list2)):
  print("list contains a sublist")
 else:
  print("list not contains a sublist")
-Output:--
-Enter length of a list1 5
-Enter elements of list1
-1
-2
-3
-4
-5
-List1 is = [1, 2, 3, 4, 5]
-Enter length of a sub-list 3
-Enter elements of sub-list
-1
-4
-5
-sub-list is = [1, 4, 5]
-list contains a sublist

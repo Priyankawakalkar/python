@@ -47,7 +47,7 @@ print("Accessing Elements from dictionary ")
 for key in dict:
  print(key,dict[key])
 
-2.Write a Program to sort (ascending and descending) a dictionary by value
+4) Write a Program to sort (ascending and descending) a dictionary by value
 Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary is =",dict)

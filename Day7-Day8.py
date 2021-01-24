@@ -14,3 +14,5 @@ for item in list:
  freq[item] = 1
 for key, value in freq.items():
  print("%s : %d" % (key, value))
+
+# 3.Write a program to check whether a list contains a sublist. 

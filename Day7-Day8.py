@@ -56,7 +56,7 @@ value = int(input("value\n"))
 dict.update({key:value})
 print("updated dictionary =",dict)
 
-3.Write a Program to add a key to a dictionary.
+3) Write a Program to add a key to a dictionary.
 Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary =",dict)

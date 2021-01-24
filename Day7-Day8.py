@@ -83,7 +83,3 @@ Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary =",dict)
 print("sorted dictionary by values =",sorted(dict.items(),key = lambda x:x[1]))
-Output:--
-Enter dictionary {'azure':2020,'instagram':2010}
-dictionary = {'azure': 2020, 'instagram': 2010}
-sorted dictionary by values = [('instagram', 2010), ('azure', 2020)] 

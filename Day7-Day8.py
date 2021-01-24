@@ -48,7 +48,6 @@ for key in dict:
  print(key,dict[key])
 
 # 4) Write a Program to sort (ascending and descending) a dictionary by value
-Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary is =",dict)
 key = input("key\n")
@@ -57,7 +56,6 @@ dict.update({key:value})
 print("updated dictionary =",dict)
 
 # 5) Write a Program to add a key to a dictionary.
-Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary =",dict)
 print("sorted dictionary by values =",sorted(dict.items(),key = lambda x:x[1]))

@@ -60,3 +60,20 @@ Dictionary = {'1': 10, '2': 20}
 Accessing Elements from dictionary
 1 10
 2 20 
+
+2.Write a Program to sort (ascending and descending) a dictionary by value
+Program:--
+dict = eval(input("Enter dictionary "))
+print("dictionary is =",dict)
+key = input("key\n")
+value = int(input("value\n"))
+dict.update({key:value})
+print("updated dictionary =",dict)
+Output:--
+Enter dictionary {'p':1,'q':2}
+dictionary is = {'p': 1, 'q': 2}
+key
+1
+value
+2
+updated dictionary = {'p': 1, 'q': 2, '1': 2} 

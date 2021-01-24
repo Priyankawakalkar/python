@@ -1,4 +1,4 @@
-# 1.Write a Python program to get the frequency of the elements in a list.
+# 1) Write a Python program to get the frequency of the elements in a list.
 list = []
 no = int(input("Enter length of a list1 "))
 print("Enter elements of list1 ")
@@ -15,7 +15,7 @@ for item in list:
 for key, value in freq.items():
  print("%s : %d" % (key, value))
 
-# 2.Write a program to check whether a list contains a sublist. 
+# 2) Write a program to check whether a list contains a sublist. 
 list1 = []
 no1 = int(input("Enter length of a list1 "))
 print("Enter elements of list1 ")

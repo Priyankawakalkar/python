@@ -46,20 +46,6 @@ print("Dictionary =",dict)
 print("Accessing Elements from dictionary ")
 for key in dict:
  print(key,dict[key])
-Output:--
-Enter dictionary element number:2
-key
-1
-value
-10
-key
-2
-value
-20
-Dictionary = {'1': 10, '2': 20}
-Accessing Elements from dictionary
-1 10
-2 20 
 
 2.Write a Program to sort (ascending and descending) a dictionary by value
 Program:--

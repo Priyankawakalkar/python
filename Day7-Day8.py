@@ -35,7 +35,7 @@ if (all(x in list1 for x in list2)):
 else:
  print("list not contains a sublist")
 
- 3) Write a program to create dictionary and access all elements with keys and values
+# 3) Write a program to create dictionary and access all elements with keys and values
 dict = {}
 num = int(input("Enter dictionary element number:"))
 for i in range(num):
@@ -47,7 +47,7 @@ print("Accessing Elements from dictionary ")
 for key in dict:
  print(key,dict[key])
 
-4) Write a Program to sort (ascending and descending) a dictionary by value
+# 4) Write a Program to sort (ascending and descending) a dictionary by value
 Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary is =",dict)
@@ -56,7 +56,7 @@ value = int(input("value\n"))
 dict.update({key:value})
 print("updated dictionary =",dict)
 
-3) Write a Program to add a key to a dictionary.
+# 5) Write a Program to add a key to a dictionary.
 Program:--
 dict = eval(input("Enter dictionary "))
 print("dictionary =",dict)

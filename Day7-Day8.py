@@ -14,16 +14,3 @@ for item in list:
  freq[item] = 1
 for key, value in freq.items():
  print("%s : %d" % (key, value))
-Output:--
-Enter length of a list1 6
-Enter elements of list1
-2
-3
-2
-5
-2
-3
-List is = [2, 3, 2, 5, 2, 3]
-2 : 3
-3 : 2
-5 : 1 

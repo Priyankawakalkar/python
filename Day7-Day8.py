@@ -35,7 +35,7 @@ if (all(x in list1 for x in list2)):
 else:
  print("list not contains a sublist")
 
- 1. Write a program to create dictionary and access all elements with keys and values
+ 3) Write a program to create dictionary and access all elements with keys and values
 dict = {}
 num = int(input("Enter dictionary element number:"))
 for i in range(num):

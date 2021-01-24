@@ -77,3 +77,13 @@ key
 value
 2
 updated dictionary = {'p': 1, 'q': 2, '1': 2} 
+
+3.Write a Program to add a key to a dictionary.
+Program:--
+dict = eval(input("Enter dictionary "))
+print("dictionary =",dict)
+print("sorted dictionary by values =",sorted(dict.items(),key = lambda x:x[1]))
+Output:--
+Enter dictionary {'azure':2020,'instagram':2010}
+dictionary = {'azure': 2020, 'instagram': 2010}
+sorted dictionary by values = [('instagram', 2010), ('azure', 2020)] 

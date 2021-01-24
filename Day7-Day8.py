@@ -34,3 +34,5 @@ if (all(x in list1 for x in list2)):
  print("list contains a sublist")
 else:
  print("list not contains a sublist")
+
+ 1. Write a program to create dictionary and access all elements with keys and values

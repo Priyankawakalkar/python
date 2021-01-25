@@ -66,7 +66,7 @@ Enter key to delete 3
 Updated dict is {'1': 10, '2': 20, '4': 40, '5': 50}
 
 # 5) Write a program to multiply all the items in a dictionary.
-Program:--
+# Program:--
 dict = eval(input("Enter dict "))
 print("dict is =",dict)
 mul=1

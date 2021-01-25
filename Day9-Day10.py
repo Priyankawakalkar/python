@@ -98,7 +98,7 @@ print("value is ",value)
 dict = dict(zip(key, value))
 print("dictionary is ",dict) 
 
-Output:--
+# Output:--
 Enter length of a keys 4
 Enter elements of keys
 2

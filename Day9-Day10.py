@@ -49,7 +49,7 @@ Enter number = 6
 dict is = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36} 
 
 # 4) Write a program to remove a key from a dictionary.
-Program:--
+# Program:--
 dict = eval(input("Enter dict "))
 print("dict1 is =",dict)
 key=input("Enter key to delete ")

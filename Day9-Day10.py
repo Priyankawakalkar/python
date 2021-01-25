@@ -74,7 +74,7 @@ for key in dict:
  mul=mul * dict[key]
 print("multiplication is ",mul) 
 
-Output:--
+# Output:--
 Enter dict {'1':5,'2':6,'3':7,'4':8}
 dict is = {'1': 5, '2': 6, '3': 7, '4': 8}
 multiplication is 1680 

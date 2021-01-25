@@ -30,3 +30,9 @@ if key in dict.keys():
  print("key is already exist in dictionary")
 else:
  print("key is not exist in dictionary") 
+
+ Output:--
+Enter dict {'1':10,'2':20}
+dict is = {'1': 10, '2': 20}
+Enter key to check = 2
+key is already exist in dictionary 

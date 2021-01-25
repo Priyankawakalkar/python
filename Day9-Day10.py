@@ -36,9 +36,8 @@ dict is = {'1': 10, '2': 20}
 Enter key to check = 2
 key is already exist in dictionary 
 
-# 3) Write a Program to generate and print a dictionary that contains a number
-(between 1 and n) in the form (x, x*x).
-Program:--
+# 3) Write a Program to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x).
+# Program:--
 dict ={}
 n = eval(input("Enter number = "))
 for x in range(1,n+1):

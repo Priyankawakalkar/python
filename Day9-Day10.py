@@ -80,3 +80,22 @@ Output:--
 Enter dict {'1':5,'2':6,'3':7,'4':8}
 dict is = {'1': 5, '2': 6, '3': 7, '4': 8}
 multiplication is 1680 
+
+3.Write a program to map two lists into a dictionary. 
+Program:--
+key = []
+no1 = int(input("Enter length of a keys "))
+print("Enter elements of keys ")
+for i in range(no1):
+ l1 = int(input())
+ key.insert(i,l1)
+print("key is ",key)
+value = []
+no2 = int(input("Enter length of a value "))
+print("Enter elements of value ")
+for i in range(no2):
+ l2 = int(input())
+ value.insert(i,l2)
+print("value is ",value)
+dict = dict(zip(key, value))
+print("dictionary is ",dict) 

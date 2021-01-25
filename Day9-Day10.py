@@ -11,7 +11,7 @@ for d in(dict1,dict2,dict3):
  dict4.update(d)
 print("dictionary is ",dict4) 
 
-Output:--
+# Output:--
 Enter dict1 {'1':10}
 dict1 is = {'1': 10}
 Enter dict2 {'2':20}

@@ -45,3 +45,7 @@ n = eval(input("Enter number = "))
 for x in range(1,n+1):
  dict[x] = x*x
 print("dict is = ",dict) 
+
+Output:--
+Enter number = 6
+dict is = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36} 

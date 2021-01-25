@@ -80,7 +80,7 @@ dict is = {'1': 5, '2': 6, '3': 7, '4': 8}
 multiplication is 1680 
 
 # 6) Write a program to map two lists into a dictionary. 
-Program:--
+# Program:--
 key = []
 no1 = int(input("Enter length of a keys "))
 print("Enter elements of keys ")

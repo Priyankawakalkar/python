@@ -20,7 +20,7 @@ Enter dict3 {'3':30}
 dict3 is = {'3': 30}
 dictionary is {'1': 10, '2': 20, '3': 30}
 
-2.Write a Program to check whether a given key already exists in a
+# 2) Write a Program to check whether a given key already exists in a
 dictionary.
 Program:--
 dict = eval(input("Enter dict "))

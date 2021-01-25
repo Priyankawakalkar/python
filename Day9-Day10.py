@@ -99,3 +99,20 @@ for i in range(no2):
 print("value is ",value)
 dict = dict(zip(key, value))
 print("dictionary is ",dict) 
+
+Output:--
+Enter length of a keys 4
+Enter elements of keys
+2
+3
+4
+5
+key is [2, 3, 4, 5]
+Enter length of a value 4
+Enter elements of value
+4
+9
+16
+25
+value is [4, 9, 16, 25]
+dictionary is {2: 4, 3: 9, 4: 16, 5: 25} 

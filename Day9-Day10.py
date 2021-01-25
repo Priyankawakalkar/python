@@ -30,7 +30,7 @@ if key in dict.keys():
 else:
  print("key is not exist in dictionary") 
 
- Output:--
+# Output:--
 Enter dict {'1':10,'2':20}
 dict is = {'1': 10, '2': 20}
 Enter key to check = 2

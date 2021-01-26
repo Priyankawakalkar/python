@@ -42,7 +42,7 @@ ad
 bc
 bd 
 
-3.Write a program to find the highest 3 values in a dictionary.
+# 3) Write a program to find the highest 3 values in a dictionary.
 Program:--
 dict ={}
 no=int(input("Enter no of elements = "))

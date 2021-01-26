@@ -9,7 +9,7 @@ for i in range(no):
 print("dictionary is = ",dict)
 print("unique values in a dictionary = ",set(dict.values())) 
 
-Output:--
+# Output:--
 Enter no of elements = 5
 key 1
 value 10

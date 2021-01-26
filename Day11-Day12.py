@@ -1,5 +1,5 @@
 # 1) Write a program to print all unique values in a dictionary.
-Program:--
+# Program:--
 dict ={}
 no=int(input("Enter no of elements = "))
 for i in range(no):

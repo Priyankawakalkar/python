@@ -24,7 +24,7 @@ value 20
 dictionary is = {1: 10, 2: 20, 3: 50, 4: 20}
 unique values in a dictionary = {10, 20, 50} 
 
-2.Write a program to create and display all combinations of letters, selecting each
+# 2) Write a program to create and display all combinations of letters, selecting each
 letter from a different key in a dictionary.
 Program:--
 dict = eval(input("Enter dict "))

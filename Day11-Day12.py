@@ -54,3 +54,18 @@ for i in range(no):
 print("dictionary is = ",dict)
 list=sorted(set(dict.values()))
 print("highest 3 values in dictionary are ",set(list[-3:])) 
+
+Output:--
+Enter no of elements = 5
+key 1
+value 10
+key 2
+value 20
+key 3
+value 30
+key 4
+value 40
+key 5
+value 50
+dictionary is = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50}
+highest 3 values in dictionary are {40, 50, 30} 

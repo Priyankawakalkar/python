@@ -25,7 +25,7 @@ dictionary is = {1: 10, 2: 20, 3: 50, 4: 20}
 unique values in a dictionary = {10, 20, 50} 
 
 # 2) Write a program to create and display all combinations of letters, selecting each letter from a different key in a dictionary.
-Program:--
+# Program:--
 dict = eval(input("Enter dict "))
 print("dict1 is =",dict)
 list1 = dict.get('1')
@@ -34,7 +34,7 @@ for i in range(2):
  for j in range(2):
  print(list1[i]+list2[j]) 
 
- Output:--
+# Output:--
 Enter dict {'1':['a','b'], '2':['c','d']}
 dict1 is = {'1': ['a', 'b'], '2': ['c', 'd']}
 ac

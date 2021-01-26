@@ -35,4 +35,10 @@ for i in range(2):
  for j in range(2):
  print(list1[i]+list2[j]) 
 
- 
+ Output:--
+Enter dict {'1':['a','b'], '2':['c','d']}
+dict1 is = {'1': ['a', 'b'], '2': ['c', 'd']}
+ac
+ad
+bc
+bd 

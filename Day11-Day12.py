@@ -42,3 +42,15 @@ ac
 ad
 bc
 bd 
+
+3.Write a program to find the highest 3 values in a dictionary.
+Program:--
+dict ={}
+no=int(input("Enter no of elements = "))
+for i in range(no):
+ key =int(input("key "))
+ value =int(input("value "))
+ dict[key] =value
+print("dictionary is = ",dict)
+list=sorted(set(dict.values()))
+print("highest 3 values in dictionary are ",set(list[-3:])) 

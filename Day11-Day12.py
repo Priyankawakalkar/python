@@ -43,7 +43,7 @@ bc
 bd 
 
 # 3) Write a program to find the highest 3 values in a dictionary.
-Program:--
+# Program:--
 dict ={}
 no=int(input("Enter no of elements = "))
 for i in range(no):

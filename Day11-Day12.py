@@ -54,7 +54,7 @@ print("dictionary is = ",dict)
 list=sorted(set(dict.values()))
 print("highest 3 values in dictionary are ",set(list[-3:])) 
 
-Output:--
+# Output:--
 Enter no of elements = 5
 key 1
 value 10

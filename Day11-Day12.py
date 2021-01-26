@@ -1,4 +1,4 @@
-1.Write a program to print all unique values in a dictionary.
+# 1) Write a program to print all unique values in a dictionary.
 Program:--
 dict ={}
 no=int(input("Enter no of elements = "))

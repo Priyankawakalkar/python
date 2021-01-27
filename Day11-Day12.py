@@ -87,3 +87,11 @@ for i in list:
  else:
  dict[i[0]]=i[1]
 print("new dictionary is ",dict) 
+
+Output:--
+Enter dict1 {'item': 'item1', 'amount': 400}
+Enter dict2 {'item': 'item2', 'amount': 300}
+Enter dict3 {'item': 'item1', 'amount': 750}
+list of dictionaries is [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount': 300},
+{'item': 'item1', 'amount': 750}]
+new dictionary is {'item1': 1150, 'item2': 300}

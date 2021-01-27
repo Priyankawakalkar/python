@@ -95,3 +95,5 @@ Enter dict3 {'item': 'item1', 'amount': 750}
 list of dictionaries is [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount': 300},
 {'item': 'item1', 'amount': 750}]
 new dictionary is {'item1': 1150, 'item2': 300}
+
+2.Write a Python program to create a dictionary from a string. Go to the editor

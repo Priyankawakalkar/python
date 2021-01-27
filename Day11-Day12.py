@@ -106,7 +106,7 @@ list of dictionaries is [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'am
 new dictionary is {'item1': 1150, 'item2': 300}
 
 # 5) Write a Python program to create a dictionary from a string. Go to the editor
-Program:--
+# Program:--
 str=input("Enter a string ")
 print("String is ",str)
 count={}

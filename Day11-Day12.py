@@ -97,7 +97,7 @@ for i in list:
  dict[i[0]]=i[1]
 print("new dictionary is ",dict) 
 
-Output:--
+# Output:--
 Enter dict1 {'item': 'item1', 'amount': 400}
 Enter dict2 {'item': 'item2', 'amount': 300}
 Enter dict3 {'item': 'item1', 'amount': 750}

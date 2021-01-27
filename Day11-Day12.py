@@ -117,7 +117,7 @@ for x in str:
  count[x]=1
 print("count of the letters is ",count) 
 
-Output:--
+# Output:--
 Enter a string wakalkar
 String is wakalkar
 count of the letters is {'w': 1, 'a': 3, 'k': 2, 'l': 1, 'r': 1}

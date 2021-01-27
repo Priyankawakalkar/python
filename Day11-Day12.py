@@ -122,3 +122,6 @@ Output:--
 Enter a string wakalkar
 String is wakalkar
 count of the letters is {'w': 1, 'a': 3, 'k': 2, 'l': 1, 'r': 1}
+
+3.Write a Python program to get the top three items in a shop. Go to the editor
+Program:-- 

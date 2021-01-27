@@ -79,8 +79,7 @@ value 50
 dictionary is = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50}
 highest 3 values in dictionary are {40, 50, 30} 
 
-4) Write a Python program to combine values in python list of dictionaries. Go to the
-editor 
+4) Write a Python program to combine values in python list of dictionaries. Go to the editor 
 Program:--
 d1=eval(input("Enter dict1 "))
 d2=eval(input("Enter dict2 "))
@@ -106,7 +105,7 @@ list of dictionaries is [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'am
 {'item': 'item1', 'amount': 750}]
 new dictionary is {'item1': 1150, 'item2': 300}
 
-2.Write a Python program to create a dictionary from a string. Go to the editor
+5) Write a Python program to create a dictionary from a string. Go to the editor
 Program:--
 str=input("Enter a string ")
 print("String is ",str)

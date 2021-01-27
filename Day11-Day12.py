@@ -125,3 +125,14 @@ count of the letters is {'w': 1, 'a': 3, 'k': 2, 'l': 1, 'r': 1}
 
 3.Write a Python program to get the top three items in a shop. Go to the editor
 Program:-- 
+dict={}
+n=int(input("Enter elements "))
+for i in range(n):
+ key = (input("key "))
+ value=float(input("value "))
+ dict[key]=value
+print("dictionary is ",dict)
+a=sorted(dict.items(),key=lambda x:x[1],reverse=True)
+print("top three items = ")
+for i in a[:3]:
+ print(i) 

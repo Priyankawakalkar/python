@@ -33,6 +33,16 @@ list2 = dict.get('2')
 for i in range(2):
  for j in range(2):
  print(list1[i]+list2[j]) 
+ Program:--
+str=input("Enter a string ")
+print("String is ",str)
+count={}
+for x in str:
+ if x in count.keys():
+ count[x]+=1
+ else:
+ count[x]=1
+print("count of the letters is ",count)
 
 # Output:--
 Enter dict {'1':['a','b'], '2':['c','d']}

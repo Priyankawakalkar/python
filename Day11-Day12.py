@@ -136,3 +136,21 @@ a=sorted(dict.items(),key=lambda x:x[1],reverse=True)
 print("top three items = ")
 for i in a[:3]:
  print(i) 
+
+ Output:--
+Enter elements 5
+key 1 
+value 45.50
+key 2
+value 34
+key 3
+value 41.30
+key 4
+value 55
+key 5
+value 12.0
+dictionary is {'1': 45.5, '2': 34.0, '3': 41.3, '4': 55.0, '5': 12.0}
+top three items =
+('4', 55.0)
+('1', 45.5)
+('3', 41.3)

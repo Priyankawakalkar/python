@@ -136,7 +136,7 @@ print("top three items = ")
 for i in a[:3]:
  print(i) 
 
- Output:--
+# Output:--
 Enter elements 5
 key 1 
 value 45.50

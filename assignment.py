@@ -18,3 +18,11 @@ print(f"Sum of list is: {sum1} \nAverage of list is: {avg}")
 l1 = [23,45,89,32,65]
 l1.sort()
 print(f"Second largest number in sorted list is: {l1[-2]}")
+
+#4. check whether each word in a string begin with upper or not. if all letter begin with upper print true otherwise false 
+
+string = input("enter a string to check string is in title case or not : ")
+if string == string.title():
+    print(True)
+else:
+    print(False)

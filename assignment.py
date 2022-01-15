@@ -26,3 +26,15 @@ if string == string.title():
     print(True)
 else:
     print(False)
+
+    #5. Write python program to print all the duplicates from a given list without using set function
+
+from collections import Counter
+l1 = [1,2,2,2,3,3,4,4,5]
+s1 = Counter(l1)
+l2 = []
+print(s1)
+for key in s1:
+    if s1[key] > 1:
+        l2.append(key)
+print(l2)

@@ -20,7 +20,6 @@ l1.sort()
 print(f"Second largest number in sorted list is: {l1[-2]}")
 
 #4. check whether each word in a string begin with upper or not. if all letter begin with upper print true otherwise false 
-
 string = input("enter a string to check string is in title case or not : ")
 if string == string.title():
     print(True)

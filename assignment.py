@@ -38,3 +38,9 @@ for key in s1:
     if s1[key] > 1:
         l2.append(key)
 print(l2)
+
+#6. print symmetric diff bet two list
+
+l1=[1,2,8,9,6]
+l2=[1,6,5,4,3]
+print(set(l1).symmetric_difference(set(l2)))

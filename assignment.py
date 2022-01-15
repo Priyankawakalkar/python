@@ -6,3 +6,10 @@ for i in l1:
     l1[0] = l1[-1]
     l1[-1] = temp
 print(l1)
+
+#2 find sum and average of list in python
+l1 = [12,10,32,22]
+for i in l1:
+    sum1 = sum(l1)
+    avg = sum1 // len(l1)
+print(f"Sum of list is: {sum1} \nAverage of list is: {avg}")

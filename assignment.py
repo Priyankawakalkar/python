@@ -13,3 +13,8 @@ for i in l1:
     sum1 = sum(l1)
     avg = sum1 // len(l1)
 print(f"Sum of list is: {sum1} \nAverage of list is: {avg}")
+
+#3 python program to find second largest number in a list
+l1 = [23,45,89,32,65]
+l1.sort()
+print(f"Second largest number in sorted list is: {l1[-2]}")

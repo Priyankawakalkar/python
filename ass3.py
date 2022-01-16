@@ -7,3 +7,12 @@ for i in str1:
         cnt[i] = 0
     cnt[i] += 1
 print(cnt)
+
+
+
+#8 write a python program to sort a list alphabetically in a dictionary
+
+d1 = {'n1':[5,3,6],'n2':[4,1,8],'n3':[3,2,4],'n4':[9,8,6]}
+for i in d1.values():
+    i.sort()
+print(d1)

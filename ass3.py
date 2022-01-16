@@ -16,3 +16,10 @@ d1 = {'n1':[5,3,6],'n2':[4,1,8],'n3':[3,2,4],'n4':[9,8,6]}
 for i in d1.values():
     i.sort()
 print(d1)
+
+
+#9 write a python program to combine two lists into a dictionary
+
+l1 = ['a','b','c','d','e','f']
+l2 = [ 1 , 2 , 3 , 4 , 5 ]
+print(dict(zip(l1,l2)))
